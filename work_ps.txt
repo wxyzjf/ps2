@@ -1,0 +1,113 @@
+correct uploadfile emailuser
+
+know about FTP\oralce environment
+
+SPOOL
+
+whenever sqlerror exit 2;
+set serveroutput on;
+set sqlblanklines on;
+set autocommit 1;
+set timing on;
+set echo on;
+set sqlprompt ' ';
+set sqlnumber off;
+set define off;
+set termout off;
+ALTER SESSION SET NLS_DATE_FORMAT = 'YYYY-MM-DD'; \n ";
+$SET_ERRLVL_3 = "set echo on;"
+SET LINE 20000;
+set define on;
+define rpt_mth=to_date('$etlvar::F_D_MONTH[0]','YYYY-MM-DD');
+
+
+return 0/1
+exit 0/1
+
+ftpssl
+ftp
+
+linux
+
+send email format
+
+EMAIL	，？?
+
+tnsping udsadw
+sqlnet.ora
+tnsping udsdw_sup
+
+How to login linux server
+
+SFB summary
+
+su 
+su - 
+
+computer pass
+
+游标
+集合
+内嵌
+join>过程
+过程
+函数
+深入查询
+高级子查询
+
+执行计划
+高级分组
+分析函数
+索引
+事务
+视图
+触发器
+序列
+
+perl
+
+IS English
+
+Username / Password : gzsmcdev01 / gzsmcdev01
+GZSMCDEV =
+? (DESCRIPTION =
+??? (ADDRESS = (PROTOCOL = TCP)(HOST = gzdev02)(PORT = 1521))
+??? (ADDRESS = (PROTOCOL = TCP)(HOST = 172.23.42.86)(PORT = 1521))
+??? (CONNECT_DATA =
+???? (SERVER = DEDICATED)
+???? (SERVICE_NAME = gzsmcdev)
+??? )
+ )
+
+c.~/.bash_profile再试
+# for oracle
+export ORACLE_HOSTNAME=GZDEV02
+export ORACLE_BASE=/opt/DBApp/oracle
+export ORACLE_HOME=$ORACLE_BASE/product/11.2.0/db_1
+export ORACLE_SID=gzsmcdev
+export PATH=$PATH:$HOME/bin:$ORACLE_HOME/bin
+#export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/usr/lib:$ORACLE_HOME/bin
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib
+
+
+a.Oracle DB	
+b.SQL
+c.Table schema
+d.Table
+e.Partition table and partition key
+f.Column type
+g.View
+h.Index
+i.Synonym
+j.Procedure
+k.Funcion
+l.Trigger
+m.Sequence.
+
+3.	Practices more  join method in SQL instead of using procedure
+4.	Study the cursor.
+
+	Procedure only can handle input file with one records.You may try to improve it more complete.
+?	In fact use insert sql and temp table instead of procedure is more efficiency way.Try understand the following step for handling in insert
+
+Try to study it in sql with sub query .
